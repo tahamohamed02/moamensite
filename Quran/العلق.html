@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سورة العلق - أنا مؤمن</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.discordapp.com/attachments/554699298437201931/1133638023356088380/png-clipart-quran-the-holy-qur-an-text-translation-and-commentary-tajwid-mus-haf-android-removebg-preview.png">
+    <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=thuluth-decorated" />
+    <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=cairo-bold" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body> 
+    <section class="banner-area relative" id="home">
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+        <div class="about-content col-lg-12">
+            <p style="font-family: thuluth-decorated;
+            font-size: 43px;"> سورة العلق
+            </p>
+        <h1 class="text-white" style="    font-family: vazirmatn;">
+        سورة العلق مكتوبة كاملة بالتشكيل
+        </h1>
+        </div>
+        </div>
+        </div>
+        </section>
+        <div class="otherCont">
+            <p id="goBack">
+                <a href="/">
+                    الرجوع للصفحة الرئيسية
+                </a>
+            </p>
+            <button class="darkMode" onclick="tempDarkMode()">وضع حفظ العين</button>
+        </div>
+        <script>
+        function tempDarkMode() {
+           var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+        </script>
+        <div class="audio-player">
+            <p>
+               سورة العلق بصوت الشيخ مشاري راشد العفاسي
+            </p>
+            <audio controls id="audioPlayer">
+              <source src="mp3/العلق.mp3" type="audio/mpeg">
+              المتصفح الخاص بك لايدعم ميزة التشغيل.
+            </audio>
+            <button id="playPauseButton">تشغيل</button>
+          </div> 
+          <script>
+            const audio = document.getElementById('audioPlayer');
+            const playPauseButton = document.getElementById('playPauseButton');
+            function togglePlayPause() {
+              if (audio.paused) {
+                audio.play();
+                playPauseButton.textContent = 'إيقاف';
+              } else {
+                audio.pause();
+                playPauseButton.textContent = 'تشغيل';
+              }
+            }
+            playPauseButton.addEventListener('click', togglePlayPause);
+          </script>
+    <div>
+        <div class="QuranPost" style="font-size:2.2em;text-align:justify;font-weight:400;line-height:1.65em;margin:55px">
+        <div class="QuranPost" style="text-align:center;font-weight:400;line-height:1.5em;margin:0 0 1em">
+          <p style="text-align: center;
+            font-family: quranfont;
+            text-align: center;
+            font-size: 80px;
+            margin: 40px;">بِسْمِ اللَّـهِ الرَّحْمَـٰنِ الرَّحِيمِ</p>
+
+ٱقۡرَأۡ بِٱسۡمِ <b>رَبِّكَ</b> ٱلَّذِي خَلَقَ <label>(1)</label> خَلَقَ ٱلۡإِنسَٰنَ مِنۡ عَلَقٍ <label>(2)</label> ٱقۡرَأۡ 
+وَ<b>رَبُّكَ</b> ٱلۡأَكۡرَمُ <label>(3)</label> ٱلَّذِي عَلَّمَ بِٱلۡقَلَمِ <label>(4)</label> عَلَّمَ ٱلۡإِنسَٰنَ 
+مَا لَمۡ يَعۡلَمۡ <label>(5)</label> كَلَّآ إِنَّ ٱلۡإِنسَٰنَ لَيَطۡغَىٰٓ <label>(6)</label> أَن رَّءَاهُ ٱسۡتَغۡنَىٰٓ 
+<label>(7)</label> إِنَّ إِلَىٰ <b>رَبِّكَ</b> ٱلرُّجۡعَىٰٓ <label>(8)</label> أَرَءَيۡتَ ٱلَّذِي يَنۡهَىٰ <label>(9)</label> عَبۡدًا 
+إِذَا صَلَّىٰٓ <label>(10)</label> أَرَءَيۡتَ إِن كَانَ عَلَى ٱلۡهُدَىٰٓ <label>(11)</label> أَوۡ أَمَرَ بِٱلتَّقۡوَىٰٓ <label>(12)</label> 
+ 
+</div></div>
+    <section style="    padding: 20px 0;
+    border-top: 1px solid #80808033; background-color: transparent;" class="footer">
+        <p class="dontforget">لا تنسنا من دعوة صالحة بظهر الغيب ♥</p><div class="social">
+          <a href="https://discord.gg/NyhJ7ex3TN" target="_blank"><i class="fab fa-discord"></i></a>
+          <a href="https://www.facebook.com/t.mohamedd7" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </section>
+</body>
+</html>
